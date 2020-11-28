@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3719600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check Title",
+        "description": "",
+        "id": "проверка-возможностей;check-title",
+        "after": [
+          {
+            "result": {
+              "duration": 704000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4461785200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "go to website \u0027https://www.google.ru/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.ru/",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.goToWebsiteHttpsWwwGoogleRu(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24027300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "check title \u0027Google\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 13
+                }
+              ],
+              "location": "MyStepDefs.checkTitleGoogle(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 815179200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "stop work",
+            "match": {
+              "location": "MyStepDefs.stopWork()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Проверка возможностей",
+    "description": "  Check Title",
+    "id": "проверка-возможностей",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/checkTitle.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 271700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Input word in search field",
+        "description": "",
+        "id": "check-search;input-word-in-search-field",
+        "after": [
+          {
+            "result": {
+              "duration": 2060700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4302753100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to website \u0027https://www.google.ru/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.ru/",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.goToWebsiteHttpsWwwGoogleRu(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 926252200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "search \u0027Гладиолус\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Гладиолус",
+                  "offset": 8
+                }
+              ],
+              "location": "MyStepDefs.searchГладиолус(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72573300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search on page \u0027Шпажник — Википедия\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Шпажник — Википедия",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepDefs.searchOnPageШпажникВикипедия(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 788247700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "stop work",
+            "match": {
+              "location": "MyStepDefs.stopWork()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Check search",
+    "description": "",
+    "id": "check-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/inputSearch.feature",
+    "tags": []
+  }
+]
